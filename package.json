@@ -6,6 +6,9 @@
   "scripts": {
     "generate-data": "node utils/generate-data.js"
   },
+  "bin": {
+    "gulp": "./node_modules/bin/gulp.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
