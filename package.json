@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "generate-data": "node utils/generate-data.js"
+    "generate-data": "node utils/generate-data.js",
+    "gulp": "./node_modules/.bin/gulp"
   },
   "bin": {
     "gulp": "./node_modules/bin/gulp.js"
@@ -40,6 +41,8 @@
     "webpack-stream": "^3.1.0"
   },
   "dependencies": {
+    "graceful-fs": "^4.1.11",
+    "lodash": "^4.17.4",
     "react": "^0.14.7",
     "react-dom": "^0.14.7"
   }

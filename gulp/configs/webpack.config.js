@@ -8,10 +8,10 @@ module.exports = {
   },
   module: {
     loaders: [{
-      test: /\.js$/,
-      loaders: ['react-hot', 'babel-loader'],
-      include: path.join(__dirname, '../../js'),
-      exclude: /node_modules/
+        test: /\.js$/,
+        loaders: ['react-hot', 'babel-loader'],
+        include: path.join(__dirname, '../../js'),
+        exclude: /node_modules/
     }]
   }
 };
