@@ -18,11 +18,11 @@ const config = {
   path: './public/data.json',
   amount: 150,
   phraseLength: 15,
-  images: ['cat', 'dog', 'fox', 'koala', 'lion', 'owl', 'penguin', 'pig', 'raccoon', 'sheep']
+  animals: ['cat', 'dog', 'fox', 'koala', 'lion', 'owl', 'penguin', 'pig', 'raccoon', 'sheep']
 };
 
-dream.customType('user-image', function (helper) {
-  return helper.oneOf(config.images);
+dream.customType('animal', function (helper) {
+  return helper.oneOf(config.animals);
 });
 
 dream.customType('user-phrase', function (helper) {
@@ -38,8 +38,8 @@ dream.schema('user', {
   name: 'name',
   age: 'age',
   phone: 'phone',
-  image: 'user-image',
-  phrase: 'user-phrase'
+  phrase: 'user-phrase',
+  animal: 'animal'
 });
 
 dream.useSchema('user')
