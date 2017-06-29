@@ -1,5 +1,7 @@
 # Пилотный выпуск React Challenge: сортировка и поиск данных
 
+# <a href="https://strandol.github.io/react-challenge-sort-and-search/">РЕЗУЛЬТАТ</a>
+
 [Статья на сайте](http://jsraccoon.ru/react-challenge-sort-and-search)
 
 [Демо приложения](http://rtivital.github.io/react-challenge-sort-and-search-solution/)
