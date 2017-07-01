@@ -5,8 +5,8 @@ import _ from 'lodash';
 export default class UserList extends Component {
     render() {      
         let usersList = _.map(this.props.users, (data) => {
-            return <UserData selectUser={this.props.selectUser} data={data} />
-        }) 
+            return <UserData key={data.id} selectUser={this.props.selectUser} data={data} />
+        })
         
         return(
            <table className='usersTableInfo'>
